@@ -1,0 +1,28 @@
+{
+  "name": "cloudflare-ddns",
+  "version": "1.0.0",
+  "description": "Cloudflare Dynamic DNS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eymengunay/cloudflare-ddns.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "ddns"
+  ],
+  "author": "Eymen Gunay <eymen@egunay.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eymengunay/cloudflare-ddns/issues"
+  },
+  "homepage": "https://github.com/eymengunay/cloudflare-ddns#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cloudflare": "^2.7.0",
+    "dotenv": "^8.2.0"
+  }
+}
